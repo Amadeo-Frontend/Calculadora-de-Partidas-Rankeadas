@@ -32,3 +32,7 @@ A função `calcularRanked` realiza o cálculo do saldo de vitórias e determina
 
 - **Determinação do Nível:**
   - Utiliza estruturas condicio
+
+## Live
+
+<https://calculadora-de-partidas-rankeadas.vercel.app/>
