@@ -31,10 +31,15 @@ body {
     backdrop-filter: blur(10px);
 }
 
+label {
+    float: left;
+    margin: 5px 0;
+}
+
 input {
-    width: 230px;
+    width: 100%;
     border-radius: 8px;
-    margin: 12px 0;
+    margin: 4px 0;
     text-align: right;
     font-size: 20px;
 }
@@ -93,4 +98,15 @@ th, td {
 
 th {
     background-color: #b0a4a4;
+}
+
+@media (max-width: 576px) {
+    #container {
+        display: block;
+        padding: 20px;
+    }
+
+    #tabela {
+        display: none;
+    }
 }
